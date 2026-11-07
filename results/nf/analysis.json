@@ -1,0 +1,99 @@
+{
+ "llm-agent (claude-cli/claude-opus-5-5)": {
+  "n": 50,
+  "valid": 50,
+  "f1": 0.8340614171696998,
+  "f1_valid": 0.8340614171696998,
+  "slip_f1": 0.8574574771516701,
+  "mcc": 0.838273563021582,
+  "fabricated_stems": 54,
+  "stems": 277,
+  "self_check_claims": 32,
+  "self_check_claims_invalid": 0,
+  "errors": 0,
+  "tool_outcomes": {
+   "verbatim": 50
+  },
+  "tool_call_rate": 1.0,
+  "f1_called": 0.8340614171696998,
+  "f1_not_called": NaN
+ },
+ "llm-direct (claude-cli/claude-opus-5-5)": {
+  "n": 50,
+  "valid": 20,
+  "f1": 0.22509177383463097,
+  "f1_valid": 0.5627294345865774,
+  "slip_f1": 0.25205737078865953,
+  "mcc": 0.225800346945932,
+  "fabricated_stems": 31,
+  "stems": 90,
+  "self_check_claims": 0,
+  "self_check_claims_invalid": 0,
+  "errors": 0
+ },
+ "llm-direct (codex-cli/gpt-6.1-terra)": {
+  "n": 50,
+  "valid": 48,
+  "f1": 0.22601929053177067,
+  "f1_valid": 0.23543676097059443,
+  "slip_f1": 0.24170189621437635,
+  "mcc": 0.2541802646043606,
+  "fabricated_stems": 36,
+  "stems": 75,
+  "self_check_claims": 0,
+  "self_check_claims_invalid": 0,
+  "errors": 0
+ },
+ "llm-direct (gemini-cli/gemini-4-argon-medium)": {
+  "n": 50,
+  "valid": 37,
+  "f1": 0.39142286049433467,
+  "f1_valid": 0.5289498114788306,
+  "slip_f1": 0.4506675144521193,
+  "mcc": 0.3934367109487609,
+  "fabricated_stems": 79,
+  "stems": 175,
+  "self_check_claims": 0,
+  "self_check_claims_invalid": 0,
+  "errors": 0
+ },
+ "llm-direct-pairs (claude-cli/claude-opus-5-5)": {
+  "n": 50,
+  "valid": 50,
+  "f1": 0.6073155745373162,
+  "f1_valid": 0.6073155745373162,
+  "slip_f1": 0.6426282879718602,
+  "mcc": 0.6105181753251112,
+  "fabricated_stems": 86,
+  "stems": 231,
+  "self_check_claims": 0,
+  "self_check_claims_invalid": 0,
+  "errors": 0
+ },
+ "rnafm": {
+  "n": 50,
+  "valid": 50,
+  "f1": 0.7669133744144183,
+  "f1_valid": 0.7669133744144183,
+  "slip_f1": 0.7902660789638943,
+  "mcc": 0.7696593807665632,
+  "fabricated_stems": 34,
+  "stems": 218,
+  "self_check_claims": 0,
+  "self_check_claims_invalid": 0,
+  "errors": 0
+ },
+ "rnafold": {
+  "n": 50,
+  "valid": 50,
+  "f1": 0.8340614171696998,
+  "f1_valid": 0.8340614171696998,
+  "slip_f1": 0.8574574771516701,
+  "mcc": 0.838273563021582,
+  "fabricated_stems": 54,
+  "stems": 277,
+  "self_check_claims": 0,
+  "self_check_claims_invalid": 0,
+  "errors": 0
+ }
+}

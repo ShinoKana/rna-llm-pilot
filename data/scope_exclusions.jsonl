@@ -1,0 +1,1 @@
+{"rule": "scope-v2-allowlist", "n_in": 2393, "n_kept": 491, "n_not_in_allowlist": 1902, "not_in_allowlist_by_family": {"16S_rRNA": 7, "5S_rRNA": 1174, "RNaseP": 3, "SRP": 493, "tRNA": 225}}

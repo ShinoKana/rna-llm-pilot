@@ -1,0 +1,4 @@
+ViennaRNA>=2.6
+pyarrow>=15
+pytest>=8
+numpy  # RNA-FM maps (method C)

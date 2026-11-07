@@ -1,0 +1,11 @@
+{
+ "rule": "scope-v2-allowlist",
+ "source": "figshare 28468946 bpRNA-NF-15.0.csv",
+ "organism_source": "NCBI taxonomy / nuccore esummary (11-04)",
+ "n_le200": 8107,
+ "n_kept_allowlist": 619,
+ "n_unique_seq": 619,
+ "n_invalid_ref": 0,
+ "n_sample": 50,
+ "seed": 20261104
+}
